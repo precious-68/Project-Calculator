@@ -5,7 +5,7 @@
 }
 
 body{
-        background-color: purple;
+        background-color: rosybrown;
 }
 
 .container {
@@ -24,6 +24,39 @@ body{
         box-shadow: 0 0 30px black;
 }
 
-.buttons{
+#display{
+        height: 200px;
+        width: auto;
         
+}
+
+button{
+        height: 60px;
+        width: 60px;
+        border: 0;
+        margin:5px;
+        font-size: 20px;
+        cursor: pointer;
+        color: black;
+}
+
+button#equal{
+        height: 130px;
+        background-color: darkgray;
+        color: whitesmoke;
+}
+
+.calculator button#clear{
+        background-color: orangered;
+        color: whitesmoke;
+}
+
+.calculator button.btn-operator{
+        background-color: black;
+        color: whitesmoke;
+}
+
+.calculator button.btn-number {
+        background-color: black;
+        color: whitesmoke;
 }
