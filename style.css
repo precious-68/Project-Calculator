@@ -1,10 +1,10 @@
-*{
+* {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
 }
 
-body{
+body {
         background-color: rosybrown;
 }
 
@@ -15,16 +15,16 @@ body{
         width: 100vw;
 }
 
-.calculator{
+.calculator {
         background-color: whitesmoke;
-        padding:20px;
+        padding: 20px;
         height: auto;
         width: auto;
         border-radius: 10px;
         box-shadow: 0 0 30px black;
 }
 
-#display{
+#display {
         height: 200px;
         width: auto;
         display: flex;
@@ -35,28 +35,28 @@ body{
         
 }
 
-button{
+button {
         height: 60px;
         width: 60px;
         border: 0;
-        margin:5px;
+        margin: 5px;
         font-size: 20px;
         cursor: pointer;
         color: black;
 }
 
-button#equal{
+button#equal {
         height: 130px;
         background-color: darkgray;
         color: whitesmoke;
 }
 
-.calculator button#clear{
+.calculator button#clear {
         background-color: orangered;
         color: whitesmoke;
 }
 
-.calculator button.btn-operator{
+.calculator button.btn-operator {
         background-color: black;
         color: whitesmoke;
 }
